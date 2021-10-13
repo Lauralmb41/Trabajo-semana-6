@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background: #F7D58F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: auto;
+}
+
+header{
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+    position: fixed;
+    background: #F0BE58 ;
+}
+
+img{
+    width: 120px;
+    height: 120px;
+    float: left;
+    padding: 5px;
+}
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+nav{
+    float: right;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    float: left;
+    padding: 50px 0;
+    position: relative;
+}
+
+nav ul li{
+    text-decoration: none;
+    color: #F1CB7D ;
+    font-weight: bold;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #ce7d35;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.box{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+.slider{
+    width: 90%;
+    max-height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+    
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    height: 60%;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+
+}   
+
+
+.cajap{
+    margin-top: 40px;
+    height: 500px;
+    overflow: hidden;
+}
+
+h2{
+    text-align:center;
+    font-family: 'Klee One', cursive;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+
+}
+
+.cajap img{
+    width: 700px;
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 90px;
+    margin-top: 30px;
+    
+}
+
+h3{
+    font-family: 'Klee One', cursive;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+.ingredientes{
+    text-align: justify;
+    font-family: 'Klee One', cursive;
+    margin-right: 70px;
+}
+
+.boton{
+    display: inline-block;
+    padding: 5px;
+    width: 150px;
+    font-weight: 300;
+    border: 3px #646124  solid;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    color:#7C6C45;
+    margin-left: 100px;
+}
+
+.caja1{
+    width: 20%;
+    height: 520px;
+    background: burlywood;
+    border-radius: 50px 50px 50px 50px;
+    margin-left: 90px;
+    border: 10px #856F3C  solid;
+    position: absolute;
+    top: 1290px;
+    overflow: hidden;
+    z-index: -10;
+   
+}
+
+h4{
+    font-family: 'Klee One', cursive;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+p{
+    padding: 30px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.caja1 img{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    float: left;
+    
+
+}
+
+.caja2{
+    width: 20%;
+    height: 520px;
+    background: burlywood;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: 50px 50px 50px 50px;
+    float: left;
+    border: 10px #856F3C  solid;
+    position: absolute;
+    top: 1220px;
+    left: 500px ;
+    overflow: hidden;
+    z-index: -10;
+}
+
+.caja2 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    
+}
+
+.caja3{
+    width: 20%;
+    height: 520px;
+    background: burlywood;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: 50px 50px 50px 50px;
+    float: left;
+    border: 10px #856F3C solid;
+    position: absolute;
+    top: 1220px;
+    right: 80px ;
+    left: 930px ;
+    overflow: hidden;
+    z-index: -10;
+}
+
+.caja3 img{
+    width: 200px;
+    height: 100px;
+    margin-top: 50px;   
+}
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background:#6F5E39 ;
+    position: absolute;
+    top:2000px;
+}
+
+footer p{
+    padding: 90px;
+    font-family: cursive;
+    text-align: center;
+    
+}
+
+/* PÁGINA DOS */
+
+.background{
+    width: 100%;
+    background-color: rgb(248, 228, 231);
+}
+
+.helado{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(228, 225, 225);
+
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #DF60A7;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: #608EDF;
+}
+
+.btn{
+        padding: 10px 25px;
+        background-color: lavender;
+        border-radius: 50px;
+    }
+
+.btn:hover{
+    background: lightblue;
+    color:#DF60A7;
+}
+
+.saboreshelado{
+    width: 200px;
+    height: 200px;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(235, 65, 93);
+}
+
+.comohacerhelado{
+    margin-left: 375px;
+}
+
+.minicaja{
+    width: 30%;
+    height: 400px;
+    background-color: #DEA4C4;
+    float: left;
+    margin-top: 120px;
+}
+
+.cajagrande{
+    width: 70%;
+    background-color: #18B29A  ;
+    height: 400px ;
+    float: left;
+    margin-top: 120px;
+}
+
+.copa{
+    width: 300px;
+    height: 400px;
+    top: 20px;
+    margin: auto;
+    padding: 70px 0;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 33px;
+    margin-left: 350px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.btn2{
+    display: inline-block;
+    padding: 5px;
+    width: 150px;
+    font-weight: 300;
+    border: 1px black solid;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-top: 20px;
+    color: black;
+    margin-left: 300px;
+}
+
+.cara{
+    width: 500px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.video{
+    margin-top: 80px;
+
+   
+}
+  
